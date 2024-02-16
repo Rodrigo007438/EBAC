@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: rgb(90, 107, 138);
+    padding: 16px 0;
+    color: azure;
+}
+header .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a{
+    color: azure;
+    text-decoration: none;
+}
+.conteiner{
+    width: 1320px;
+    margin: 0 auto 0 auto;
+}
+
+.artigo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigo article img{
+    height: 230px;
+    width: 100%;
+}
+
+.artigo article{
+    width: 30%;
+}
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.artigo article{
+    margin-bottom: 16px;
+}
+.artigo article{
+    margin-top: 8px;
+    margin-top: 8px;
+}
+
+.artigo article a{
+    background-color: dodgerblue;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.artigo article a:hover{
+    text-decoration: underline;
+}
+.artigo article p,
+.artigo article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.artigo article h3{
+    font-size: 22px;
+}
+
+section h2{
+    font-size: 34px;
+}
+
+.esporte{
+    background-color: rgba(0, 255, 170, 0.1);
+}
+
+.esporte .artigo article a{
+    background-color: rgba(0, 255, 170, 0.5);
+    color: black;
+}
+
+.economia{
+    background-color: rgba(0, 170, 255, 0.1);
+}
+.economia .artigo article a{
+    background-color: rgba(0, 170, 255, 0.5);
+    color: black;
+}
+.tech{
+    background-color: rgba(255,0,255,0.1);
+}
+.tech .artigo article a{
+    background-color: rgba(215, 134, 231, 0.5);
+    color: black;
+}
+.entreterimento{
+    background-color: rgba(196, 250, 69, 0.1);
+}
+.entreterimento .artigo article a{
+    background-color: rgba(202, 243, 20, 0.5);
+    color: black;
+}
